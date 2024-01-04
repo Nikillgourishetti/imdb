@@ -6,7 +6,7 @@ function Banner() {
         backgroundImage: "url(https://wallpapers.com/images/featured/naruto-characters-peo1d7c1aqugno3e.jpg)"
 
     }}>
-        <div className='w-full text-xl md:text-3xl bg-gray-900 text-orange-600  text-center bg-opacity-60 font-bold '> Naruto</div>
+        <div className='w-full text-xl md:text-3xl bg-gray-900 text-blue-600  text-center bg-opacity-60 font-bold '> Naruto</div>
         
 
     </div>
