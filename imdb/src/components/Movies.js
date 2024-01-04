@@ -90,7 +90,7 @@ function Movies() {
                    onMouseLeave={() => setHoveredMovie(null)}
               style={{
                 backgroundImage: `url(https://image.tmdb.org/t/p/original/t/p/w500/${movie.poster_path})`
-              }} key={movie.id} className=' overflow-hidden w-[250px] h-[30vh] bg-center bg-cover m-4 md:h-[35vh] md:w-[250px] flex items-end rounded-xl hover:scale-110 duration-300 relative'>
+              }} key={movie.id} className=' overflow-hidden w-[250px] h-[35vh] bg-center bg-cover m-4 md:h-[55vh] md:w-[250px] flex items-end rounded-xl hover:scale-110 duration-300 relative'>
                 <div 
                 style={{visibility: movie.id === hoveredMovie ? "visible" : "hidden"}}
                 className='text-2xl p-2 bg-gray-900 text-white absolute left-2 top-2 bg-opacity-70'>
